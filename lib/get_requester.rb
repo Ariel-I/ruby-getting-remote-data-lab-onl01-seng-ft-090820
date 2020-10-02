@@ -20,7 +20,7 @@ class GetRequester
  
  def parse_json 
    parse = JSON.parse(self.get_parse)
-   
+   parse.collect do |p|
  end
   
   
