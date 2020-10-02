@@ -30,5 +30,5 @@ end
 #   responses = GetRequester.new.get_response_body
 #   puts responses
   
-    responses = GetRequester.new
-    puts responses.parse_json.uniq
+ #   responses = GetRequester.new
+#    puts responses.parse_json.uniq
