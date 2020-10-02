@@ -17,16 +17,16 @@ class GetRequester
   end 
  
   def parse_json 
-   parser = JSON.parse(self.get_parse)
+   parser = JSON.parse(self.get_response_body)
    parser.collect do |parse|
      parse |name|
    end 
  end
   
-#   responses = GetRequester.new.get_response_body
-#   puts responses
+   responses = GetRequester.new.get_response_body
+   puts responses
   
-    responses = GetRequester.new
-    puts responses.get_response_body.uniq
+  #  responses = GetRequester.new
+  # puts responses.get_response_body.uniq
   
 end 
