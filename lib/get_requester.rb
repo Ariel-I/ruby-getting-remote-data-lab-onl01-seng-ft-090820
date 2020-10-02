@@ -28,6 +28,6 @@ class GetRequester
 #   puts responses
   
     responses = GetRequester.new
-    puts responses.response_name.uniq
+    puts responses.get_response_body.uniq
   
 end 
