@@ -25,6 +25,7 @@ class GetRequester
   occupations.collect do |occupation|
     occupation ["occupation"]
    end 
+ end 
    
   end
  
