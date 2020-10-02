@@ -21,7 +21,9 @@ class GetRequester
    parser.collect do |parse|
      parse |"name"|
    end 
- end
+  end
+ 
+ 
 end 
 
    responses = GetRequester.new.get_response_body
