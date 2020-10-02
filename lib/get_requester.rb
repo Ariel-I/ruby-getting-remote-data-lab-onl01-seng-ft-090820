@@ -19,7 +19,8 @@ class GetRequester
  puts responses
  
  def parse_json 
-   parse = JSON.parse(self_)
+   parse = JSON.parse(self.get_parse)
+   
  end
   
   
