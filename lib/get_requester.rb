@@ -16,8 +16,6 @@ class GetRequester
      response.body 
   end 
  
-
- 
   def parse_json 
    parser = JSON.parse(self.get_parse)
    parser.collect do |parse|
@@ -26,7 +24,7 @@ class GetRequester
   get_response_body
  end
   
-   responses = GetRequester.new.get_response_body
-   puts responses
+#   responses = GetRequester.new.get_response_body
+#   puts responses
   
 end 
