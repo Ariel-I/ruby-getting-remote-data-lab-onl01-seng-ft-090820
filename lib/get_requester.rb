@@ -23,6 +23,7 @@ class GetRequester
    end 
  end
 end 
+
    responses = GetRequester.new.get_response_body
    puts responses
   
