@@ -22,6 +22,7 @@ class GetRequester
    parser = JSON.parse(self.get_parse)
    parser.collect do |parse|
      parse
+   end 
  end
   
   
