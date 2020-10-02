@@ -16,12 +16,13 @@ class GetRequester
  responses = GetRequester.new.get_response_body
  puts responses
  
-# def parse_json 
-#   parser = JSON.parse(self.get_parse)
-#   parser.collect do |parse|
-#     parse
-#   end 
-# end
+ def parse_json 
+   parser = JSON.parse(self.get_parse)
+   parser.collect do |parse|
+     parse
+   end 
+  get_response_body
+ end
   
   
   
