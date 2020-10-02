@@ -17,9 +17,9 @@ class GetRequester
   end 
  
   def parse_json 
-   name = JSON.parse(self.get_response_body)
-   name.collect do |parse,o|
-     parse ["name"] 
+   names = JSON.parse(self.get_response_body)
+   names.collect do |name|
+     name ["occupation"] 
   
    end 
   end
