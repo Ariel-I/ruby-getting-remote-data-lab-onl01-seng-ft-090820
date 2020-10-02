@@ -31,4 +31,4 @@ end
 #   puts responses
   
     responses = GetRequester.new
-   puts responses.get_response_body.uniq
+    puts responses.get_response_body.uniq
