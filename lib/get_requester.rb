@@ -27,7 +27,7 @@ class GetRequester
    end 
  end 
    
-  end
+  
  
  
 end 
