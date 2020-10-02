@@ -19,14 +19,7 @@ class GetRequester
   def parse_json 
    parser = JSON.parse(self.get_response_body)
  end 
-   
-  
- 
  
 end 
 
-#   responses = GetRequester.new.get_response_body
-#   puts responses
-  
-#   responses = GetRequester.new
-#    puts responses.parse_json.uniq
+
