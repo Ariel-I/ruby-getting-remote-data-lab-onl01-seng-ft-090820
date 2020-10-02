@@ -27,4 +27,7 @@ class GetRequester
 #   responses = GetRequester.new.get_response_body
 #   puts responses
   
+    responses = GetRequester.new
+    puts responses.response_name.uniq
+  
 end 
