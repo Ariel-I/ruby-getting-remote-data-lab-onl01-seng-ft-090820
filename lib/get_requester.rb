@@ -19,8 +19,9 @@ class GetRequester
  puts responses
  
  def parse_json 
-   parse = JSON.parse(self.get_parse)
-   parse.collect do |p|
+   parser = JSON.parse(self.get_parse)
+   parser.collect do |parse|
+     parse
  end
   
   
